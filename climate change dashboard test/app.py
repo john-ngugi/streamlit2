@@ -161,7 +161,7 @@ st.markdown("---")
 st.header("Temperature")
 st.dataframe(df_temp_ts.style.highlight_max(axis=0))
 
-fig_transactions = px.line(
+fig_temp = px.line(
     df_temp_ts,
     x="Variable",
     y= "Kenya",
@@ -172,7 +172,7 @@ fig_transactions = px.line(
 )
 
 
-st.plotly_chart(fig_transactions,use_container_width=True)
+st.plotly_chart(fig_temp,use_container_width=True)
 
 st.markdown("---")
 
