@@ -24,3 +24,5 @@ please read the requirements.txt file
 install google earth engine first: run pip install earthengine-api.
 
 please make sure you have all packages installed before you run the app.
+
+run pip install -r requirements.txt to install all packages. 
