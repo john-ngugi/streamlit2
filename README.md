@@ -21,4 +21,5 @@ please read the requirements.txt file
 11. runthe app by typing streamlit run ap.py 
 ## NOTE: 
 
-please make sure you have all packages installed before you run the app 
+install google earth engine first: run pip install earthengine-api 
+please make sure you have all packages installed before you run the app.
